@@ -1,0 +1,96 @@
+/*
+ * General Styles
+*/
+
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  background-image: url(../images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  color: white
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #e0c77b
+}
+
+h1 {
+
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p, h1, h2 {
+  margin: 0;
+  padding: 20px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+}
+
+.container section:nth-child(even) {
+  background: #AAB3AB;
+}
+
+.container section:nth-child(odd) {
+  background: #9ea989;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+
